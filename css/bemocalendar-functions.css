@@ -1,0 +1,27 @@
+/* --- THEME FORCE EVENTS (CUSTOM POST TYPE) --- */
+
+/* Columns CPT Events  */
+th#bemocalendar_col_ev_date, th#bemocalendar_col_ev_cat {width:150px} 
+td.bemocalendar_col_ev_date em{color:gray;}
+th#bemocalendar_col_ev_times{width:150px}
+th#bemocalendar_col_ev_thumb{width:100px}
+
+th#bemocalendar_col_menu_order{width:60px}
+td.bemocalendar_col_menu_id{color:gray;text-align:right;}
+td.bemocalendar_col_menu_order{color:#219b38;text-align:right;}
+th#bemocalendar_col_menu_thumb{width:100px}
+td.bemocalendar_col_menu_thumb img{border:1px solid #d8d8d8}
+th#bemocalendar_col_menu_cat,th#bemocalendar_col_menu_title,th#bemocalendar_col_menu_size{width:150px}
+
+/* Metabox */
+.bemocalendar-meta {  }
+.bemocalendar-meta ul li { height: 20px; clear:both; margin: 0 0 15px 0;}
+.bemocalendar-meta ul li label { width: 100px; display:block; float:left; padding-top:4px; }
+.bemocalendar-meta ul li input { width:125px; display:block; float:left; }
+.bemocalendar-meta ul li input[type="checkbox"] { width:10px; margin-top: 5px; }
+.bemocalendar-meta ul li em { width: 200px; display:block; float:left; color:gray; margin-left:10px; padding-top: 4px}
+
+
+.bemocalendar-meta ul li input.hasDatepicker{
+	width: 150px;
+}
